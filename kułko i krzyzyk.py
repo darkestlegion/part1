@@ -8,8 +8,9 @@ tura = False
 
 while (True) : 
     wybór_pola = int(input("wypisze pole"))
-    plansza_gra[wybór_pola] = tura 
+    plansza_gra[wybór_pola] = tura if 1 else 0
 
-warunek = True
-warunek ? "wartość_jeśli_prawd"a : "wartość_jeśli_fałsz"
+
+
+
 
